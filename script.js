@@ -73,7 +73,7 @@ init();
 animate();
 
 window.addEventListener('resize', function () {
-  canvas.width = innerWidth;
-  canvas.height = innerHeight;
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
   init();
 });
