@@ -42,7 +42,7 @@ Particle.prototype.update = function () {
   } else {
     this.opacity -= 0.01;
   }
-  if (this.opacity <= 0.2 || this.opacity > 0.9) {
+  if (this.opacity <= 0.3 || this.opacity > 0.99) {
     this.opacity_direction = this.opacity_direction * -1;
   }
   this.draw();
@@ -50,7 +50,7 @@ Particle.prototype.update = function () {
 
 function init() {
   particleArray = [];
-  for (let i = 0; i <= 1000; i++) {
+  for (let i = 0; i <= 2000; i++) {
     let size = Math.random() * 2;
     let x = Math.random() * (innerWidth - size * 2);
     let y = Math.random() * (innerHeight - size * 2);
@@ -73,7 +73,7 @@ init();
 animate();
 
 window.addEventListener('resize', function () {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  canvas.width = innerWidth;
+  canvas.height = innerHeight;
   init();
 });
