@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: black;
+}
+
+#texts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: 10;
+}
+
+#shloka {
+  color: white;
+  word-wrap: normal;
+  white-space: nowrap;
+  font-weight: normal;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2.5em;
+  text-shadow: 0 0 2px #ff6f00, 0 0 3px #ff6f00, 0 0 5px #ff9a00, 0 0 20px #ff0;
+  opacity: 0.9;
+}
+
+#shloka-meaning {
+  padding-top: 50px;
+  color: #ffda96;
+  word-wrap: normal;
+  font-size: 1.3em;
+  white-space: nowrap;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#canvas1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
