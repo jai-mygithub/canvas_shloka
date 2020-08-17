@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'samyak';
-  src: url('Samyak-Devanagari.ttf') format('truetype');
+  src: url('./Samyak-Devanagari.ttf') format('truetype');
 }
 
 * {
