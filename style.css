@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'samyak';
-  src: url('./Samyak-Devanagari.ttf') format('truetype'),
-    url('../canvas_shloka/Samyak-Devanagari.ttf') format('truetype');
+  src: url('https://res.cloudinary.com/dxmi9d3vj/raw/upload/v1597686883/Samyak-Devanagari_t1xczn.ttf')
+    format('truetype');
 }
 
 * {
