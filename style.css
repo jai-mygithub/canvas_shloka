@@ -13,6 +13,22 @@
 
 body {
   background: black;
+  background: url('https://res.cloudinary.com/dxmi9d3vj/image/upload/v1597709939/download_2_cde2vd.jpg')
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+body:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.8;
 }
 
 #texts {
@@ -24,14 +40,14 @@ body {
 }
 
 #shloka {
-  color: #fefee3;
+  color: #fffce3;
   word-wrap: normal;
   white-space: nowrap;
   text-align: center;
   font-weight: lighter;
   font-size: 2.5em;
   word-spacing: -0.5em;
-  text-shadow: 0 0 1px #fefee3, 0 0 2px #fefee3, 0px 0 3px #6c391d,
+  text-shadow: 0 0 1px #fffce3, 0 0 2px #fcfcd3, 0px 0 3px #6c391d,
     0px 0 4px #6c391d, 0px 0 4px #6c391d, 0px 0 5px #6c391d, 0px 0 6px #6c391d;
 }
 
@@ -51,5 +67,5 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 1;
 }

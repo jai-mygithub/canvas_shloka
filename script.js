@@ -6,7 +6,7 @@ const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
 ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
-const colors = ['#db9e30', '#ad5100', '#f9f0b1'];
+const colors = ['#db9e30', '#ad5100', '#f9f0b1', '#dec4e9'];
 let particleArray;
 
 function Particle(x, y, directionX, directionY, size, color) {
@@ -50,7 +50,7 @@ Particle.prototype.update = function () {
 
 function init() {
   particleArray = [];
-  for (let i = 0; i <= 2000; i++) {
+  for (let i = 0; i <= 1500; i++) {
     let size = Math.random() * 2;
     let x = Math.random() * (innerWidth - size * 2);
     let y = Math.random() * (innerHeight - size * 2);
