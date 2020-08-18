@@ -47,7 +47,7 @@ body:after {
   font-weight: lighter;
   font-size: 2.5em;
   word-spacing: -0.5em;
-  text-shadow: 0 0 1px #d3461d, 0 0 15px #c26f56, 0 0 30px #d3461d;
+  text-shadow: 0 0 1px #d3461d, 0 0 30px #d3461d, 0 0 30px #d3471d80;
   /* text-shadow: 0 0 1px #fffce3, 0 0 2px #fcfcd3, 0px 0 3px #6c391d,     0px 0 4px #6c391d, 0px 0 4px #6c391d, 0px 0 5px #6c391d, 0px 0 6px #6c391d; */
 }
 
