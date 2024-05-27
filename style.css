@@ -13,7 +13,7 @@
 
 body {
   background: black;
-  background: url('https://res.cloudinary.com/dxmi9d3vj/image/upload/v1597709939/download_2_cde2vd.jpg')
+  background: url('https://res.cloudinary.com/dxmi9d3vj/image/upload/v1716841030/matthew-kosloski-BT_BUEwjeQg-unsplash_y2nv69.jpg')
     no-repeat center center fixed;
   background-size: cover;
 }
@@ -37,31 +37,21 @@ body:after {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
+  font-size: 1.5em;
+  line-height: 400%;
 }
 
 #shloka {
-  color: #fbc072;
+  color: #e8efff;
   word-wrap: normal;
   white-space: nowrap;
   text-align: center;
   font-weight: lighter;
   font-size: 2.5em;
   word-spacing: -0.5em;
-  text-shadow: 0 0 1px #fbc072, 0 0 3px #d3461d, 0 0 30px #d3461d,
-    0 0 30px #d3471d80;
+  text-shadow: 0 0 1px #325c7d, 0 0 3px #154258, 0 0 30px #042a3d,
+    0 0 30px #133d50;
   /* text-shadow: 0 0 1px #fffce3, 0 0 2px #fcfcd3, 0px 0 3px #6c391d,     0px 0 4px #6c391d, 0px 0 4px #6c391d, 0px 0 5px #6c391d, 0px 0 6px #6c391d; */
-}
-
-#shloka-meaning {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  padding-top: 50px;
-  color: #ffda96;
-  text-shadow: 0 0 1px #fff;
-  word-wrap: normal;
-  font-size: 1.5em;
-  white-space: nowrap;
-  text-align: center;
 }
 
 #canvas1 {

@@ -6,7 +6,7 @@ const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
 ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
-const colors = ['#db9e30', '#ad5100', '#f9f0b1', '#dec4e9'];
+const colors = ['#325C7D', '#91A2C9', '#154258', '#133D50'];
 let particleArray;
 
 function Particle(x, y, directionX, directionY, size, color) {
